@@ -1,21 +1,18 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+# 📦 StLlama-2 interface using streamlit and replicate
+Local deploy of Llama-2 interface (7B, 13B and 70B)
 
-Description of the app ...
 
 ## Demo App
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
-
-## GitHub Codespaces
-
+Warning: We don't have resources for deploying on Streamlit APP Page. Currently we only support local deploy
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
 
-## Section Heading
+## Run
+```bash
+# before you run, set up REPLICATE_API_TOKEN
+# export REPLICATE_API_TOKEN=...
 
-This is filler text, please replace this with text for this section.
+streamlit run streamlit_app.py
+```
 
 ## Further Reading
 
